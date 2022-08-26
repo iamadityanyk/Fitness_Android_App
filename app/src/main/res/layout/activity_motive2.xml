@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#876445"
+    tools:context=".Motive2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="6dp"
+        android:foregroundGravity="center_horizontal"
+        app:cardBackgroundColor="#BA9C6A"
+        app:cardCornerRadius="15dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:gravity="center_horizontal"
+            android:text="Please Select Your Focus Area"
+            android:textColor="#3C0505"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/lose"
+        android:layout_width="377dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="474dp"
+        android:clickable="true"
+        app:cardBackgroundColor="#C8C2C2"
+        app:cardCornerRadius="15dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="155dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="45dp"
+            android:text="Lose Weight"
+            android:textColor="#490B0B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="210dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/women_lose" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/building"
+        android:layout_width="377dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="289dp"
+        android:clickable="true"
+        app:cardBackgroundColor="#C8C2C2"
+        app:cardCornerRadius="15dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="169dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            android:text="Build Muscle"
+            android:textColor="#490B0B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="180dp"
+            android:layout_height="104dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/women_buildmuscle" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Fit"
+        android:layout_width="377dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="110dp"
+        android:clickable="true"
+        app:cardBackgroundColor="#C8C2C2"
+        app:cardCornerRadius="15dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="125dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            android:text="Keep Fit"
+            android:textColor="#490B0B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="235dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/women_fit" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/Motive_Confirm"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="37dp"
+        android:backgroundTint="#8A3939"
+        android:text="Confirm"
+        android:textColor="#F4EFEF" />
+
+</RelativeLayout>

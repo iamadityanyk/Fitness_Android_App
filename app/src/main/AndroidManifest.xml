@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fitness_freak">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fitness_Freak"
+        tools:targetApi="31">
+        <activity android:name=".MainActivity"
+            android:exported="true">
+<intent-filter>
+    <action android:name="android.intent.action.MAIN">
+    </action>
+    <category android:name="android.intent.category.LAUNCHER">
+    </category>
+</intent-filter>
+        </activity>
+        <activity
+            android:name=".women_fitness_arm"
+            android:exported="false" />
+        <activity
+            android:name=".Full_Body_Women"
+            android:exported="false" />
+        <activity
+            android:name=".Second_Activity_women"
+            android:exported="false" />
+        <activity
+            android:name=".Motive2"
+            android:exported="false" />
+        <activity
+            android:name=".Motive"
+            android:exported="false" />
+        <activity
+            android:name=".women_fitness_fullbody"
+            android:exported="false" />
+        <activity
+            android:name=".Second_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".men_abs"
+            android:exported="false" />
+        <activity
+            android:name=".men_leg"
+            android:exported="false" />
+        <activity
+            android:name=".men_back"
+            android:exported="false" />
+        <activity
+            android:name=".men_fullbody"
+            android:exported="false" />
+        <activity
+            android:name=".men_chest"
+            android:exported="false" />
+        <activity
+            android:name=".men_arm"
+            android:exported="false" />
+        <activity
+            android:name=".Women_chest"
+            android:exported="false" />
+        <activity
+            android:name=".women_abs"
+            android:exported="false" />
+        <activity
+            android:name=".women_leg"
+            android:exported="false" />
+        <activity
+            android:name=".women_back"
+            android:exported="false" />
+    </application>
+
+</manifest>
